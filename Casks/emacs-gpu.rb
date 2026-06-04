@@ -8,10 +8,9 @@ cask "emacs-gpu" do
   homepage "https://github.com/tanrax/emacs-gpu"
 
   depends_on arch: :arm64
+  depends_on :macos
 
   app "Emacs.app", target: "Emacs GPU.app"
 
-  zap trash: [
-    "~/Library/Saved Application State/org.gnu.Emacs.savedState",
-  ]
+  zap trash: "~/Library/Saved Application State/org.gnu.Emacs.savedState"
 end
