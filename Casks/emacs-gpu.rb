@@ -1,6 +1,6 @@
 cask "emacs-gpu" do
-  version "0.3.1"
-  sha256 "d115348440eb0033855c44529a4ef72e0afd7fc803ec557c7bb05277927c8310"
+  version "0.3.2"
+  sha256 "4d352be91f758a6af2e98b72e938537a49f254500bdb3ce92e18ece78a42efdd"
 
   url "https://github.com/tanrax/emacs-gpu/releases/download/v#{version}/emacs-gpu-#{version}-macos-arm64.zip"
   name "Emacs GPU"
